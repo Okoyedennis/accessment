@@ -1,0 +1,99 @@
+.home {
+  margin-top: -80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://media.wired.com/photos/590951f9d8c8646f38eef333/master/pass/walmart-advanced-vehicle-experience-wave-concept-truck.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  color: #fff;
+}
+
+.home .home__text {
+  width: 60%;
+}
+
+.home__text > h1 {
+  line-height: 1.3;
+  font-size: 3.1rem;
+  color: #fac312;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+
+.home__aboutInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.home__aboutInfo > h2 {
+  text-transform: capitalize;
+}
+
+.home__aboutInfo > p {
+  text-transform: uppercase;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #777;
+  font-size: 13px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.home__about > .home__aboutFlexContainer {
+  display: flex;
+}
+
+.home__aboutFlexContainer > .aboutFLex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #fcfcfc;
+  margin-bottom: 5rem;
+  margin-right: 2rem;
+}
+
+.home__aboutFlexContainer > .aboutFLex:last-child {
+  margin-right: 0rem;
+}
+
+.home__aboutIcon > .MuiSvgIcon-root {
+  font-size: 52px !important;
+  margin-right: 0.5rem;
+  color: #fac312 !important;
+}
+
+.home__aboutText > h4 {
+  line-height: 22px;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  font-size: 18px;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 15px;
+}
+
+.home__aboutText > p {
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #777;
+  font-size: 13px;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .home__about > .home__aboutFlexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

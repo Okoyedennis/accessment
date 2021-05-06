@@ -1,0 +1,55 @@
+.services {
+  margin-top: -80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.volvotrucks.com/content/dam/volvo/volvo-trucks/markets/global/news-and-stories/press-release/2020/200212/1860x1050-pressrelease-electric-heavy-duty-trucks-image3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  color: #fff;
+  box-shadow: 0 2px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.services .services__text {
+  width: 60%;
+}
+
+.services__text > h1 {
+  line-height: 1.3;
+  font-size: 3.1rem;
+  color: #fac312;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+
+.services__content {
+  margin-top: 3rem;
+  width: 60%;
+}
+
+.truck > .truck__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.form > .input {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.form > .button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}

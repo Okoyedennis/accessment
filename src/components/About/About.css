@@ -1,0 +1,25 @@
+.about {
+  margin-top: -80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.writersevoke.com/wp-content/uploads/2021/01/truck.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  color: #fff;
+}
+
+.about .about__text {
+  width: 60%;
+}
+
+.about__text > h1 {
+  line-height: 1.3;
+  font-size: 3.1rem;
+  color: #fac312;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}

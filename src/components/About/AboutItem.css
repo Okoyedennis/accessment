@@ -1,0 +1,41 @@
+.aboutItem__content {
+  display: flex;
+  align-items: center;
+}
+
+.aboutItem__content > .aboutItem__text {
+  flex: 1;
+}
+
+.aboutItem__content > .gap {
+  padding-left: 0.5rem;
+}
+
+.aboutItem__text > h3 {
+  line-height: 24px;
+  font-weight: 800;
+  font-style: normal;
+  color: #333333;
+  font-size: 21px;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 15px;
+}
+
+.aboutItem__text > p {
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #777;
+  font-size: 13px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.aboutItem__content > .aboutItem__img {
+  flex: 1;
+}
+.aboutItem__img > img {
+  width: 100%;
+  object-fit: contain;
+}

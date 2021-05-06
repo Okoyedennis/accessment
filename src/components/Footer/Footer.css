@@ -1,0 +1,17 @@
+.footer__center {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: #f0f0f0;
+  align-items: center;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #fac312;
+  font-size: 14px;
+  opacity: 1;
+  visibility: visible;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 2rem;
+}
